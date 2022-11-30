@@ -1,0 +1,55 @@
+body{
+    margin:0;
+}
+.topl {
+    margin-top: 504px;
+    width:100%;
+    height :40px;
+}
+.warp{
+    width: 400px;
+    overflow:hidden;
+}
+.topl a{
+    float: left;
+    border-left: 1px solid #df1010;
+    border-right:1px solid #a1eb4e;
+    margin-right: 245px;
+    background: #a72cd8;
+    height :40px;
+    line-height :40px;
+    width:100px;
+    text-decoration:none;
+    color :#000;
+    transition:0.3s ease-in-out;
+}
+.topl a:hover {
+    box-shadow: inset 0px 0px 10px #a3a3a3;
+}
+.topl .menux {
+    position: absolute;
+    top: 1710px;
+    left:0px;
+    width: 200px;
+    background: #573c94;
+    border :1px solid #29c5c5;
+    border-top:0px;
+    display:none;
+}
+.topl .menux a {
+    width: 95%;
+    height: 25px;
+    margin:1%;
+    margin-top:5px;
+    background: #228ec0;
+    line-height :25px;
+    border :1px solid #a3a3a3;
+    margin-left :4px;
+}
+.topl .menux a:last-child {
+    margin-bottom: 5px;
+}
+.topl a:last-child {
+    border-left:1px solid #a3a3a3;
+    border-right: 1px solid #a3a3a3;
+    margin-right: 0px;}
